@@ -1,0 +1,72 @@
+#All{
+		height: 2000px;
+		width: 1000px;
+		background-color: green;
+		margin: auto;
+	}
+	#Top{
+		height: 100px;
+		background: white;
+	}
+	#rq{
+		float: right;
+	}
+	#Dock{
+		height: 1700px;
+		background: yellow;
+	}
+	#Dock_left{
+		height: 1698px;
+		width: 198px;
+		background: white;
+		float:left;
+		border: 1px solid grey;
+	}
+	#menu{
+		height: 30px;
+		background:white ;
+	}
+	#menu_all{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		margin-left: -40px;
+	}
+	.top_menu{
+		width :20%;
+		height: 100%;
+		float: left;
+	}
+	li.top_menu:hover{background-color: grey;color: white;}
+	#Dock_right{
+		height: 1698px;
+		width: 798px;
+		background: white;
+		float: right;
+		border: 1px solid grey;
+	}
+	#Down{
+		height: 200px;
+		background: rgb(0,128,255);
+	}
+	
+	a.leftmenu{
+		height:100%;
+		width:100%;
+	}
+	li.leftmenu{
+		width: 100%;
+		height: 30px;
+	}
+
+	a:link {text-decoration:none;}     /* 未访问的链接 */
+	a:visited {text-decoration:none;}  /* 已访问的链接 */
+	a:hover {text-decoration:none;color: white;}    /* 当有鼠标悬停在链接上 */
+	a:active {text-decoration:none;}   /* 被选择的链接 */
+	
+	ul{
+		margin-left: -40px;
+	}
+	li{
+		list-style:none;		
+	}
